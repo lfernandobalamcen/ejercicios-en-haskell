@@ -1,0 +1,8 @@
+
+
+potencia :: Num a => a -> Int -> a
+potencia x n = if n==0 then 1
+           else x * potencia x (n-1)
+
+
+
